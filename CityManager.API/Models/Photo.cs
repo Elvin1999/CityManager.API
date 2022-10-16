@@ -10,6 +10,10 @@
         public DateTime DateAdded { get; set; }
         public bool IsMain { get; set; }
         public string PublicId { get; set; }
+        public Photo()
+        {
+            City=new City();
+        }
 
     }
 }
